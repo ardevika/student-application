@@ -6,6 +6,7 @@ import DeleteStudent from './components/DeleteStudent';
 import VieewStudent from './components/VieewStudent';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LiveNews from './components/LiveNews';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path='/Search' element={<SearchStudent />} />
         <Route path='/Delete' element={<DeleteStudent />} />
         <Route path='/Vieew' element={<VieewStudent />} />
+        <Route path='/News' element={<LiveNews/>}/>
         
-        
+      
 
 
 
