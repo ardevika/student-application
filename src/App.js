@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddStudent />} />
-        <Route path='/Search' element={<SearchStudent />} />
-        <Route path='/Delete' element={<DeleteStudent />} />
-        <Route path='/Vieew' element={<VieewStudent />} />
-        <Route path='/News' element={<LiveNews/>}/>
+        <Route path='/SearchStudent' element={<SearchStudent />} />
+        <Route path='/DeleteStudent' element={<DeleteStudent />} />
+        <Route path='/VieewStudent' element={<VieewStudent />} />
+        <Route path='/LiveNews' element={<LiveNews/>}/>
         
       
 

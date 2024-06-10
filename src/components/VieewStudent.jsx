@@ -22,13 +22,13 @@ const VieewStudent = () => {
                             {data.map(
                                 (value, index) => {
                                     return <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                                        <div class="card">
+                                        <div className="card">
                                             <img src="https://i0.wp.com/vssmn.org/wp-content/uploads/2018/12/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png?fit=860%2C681&ssl=1" class="card-img-top" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title">{value.name}</h5>
-                                                <p class="card-text">{value.adno}</p>
-                                                <p class="card-text">{value.rollno}</p>
-                                                <a href="#" class="btn btn-primary">about more</a>
+                                            <div className="card-body">
+                                                <h5 className="card-title">{value.name}</h5>
+                                                <p className="card-text">{value.adno}</p>
+                                                <p className="card-text">{value.rollno}</p>
+                                              
                                             </div>
                                         </div>
                                     </div>
